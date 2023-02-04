@@ -21,7 +21,7 @@
  
  The online monitoring feature is in the folder `Online/`. Scripts for AFC are in `Online/examples/AFC_online/plot_examples.m`; scripts for AT are in `Online/examples/Autotrans_online/init_monitor`
  
-### Configuration of mode
+### Configuration of different monitors
 
 - the variable `d`:
   - `d = 0`: monitor only (the classic monitor ClaM)
