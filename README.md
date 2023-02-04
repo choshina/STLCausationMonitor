@@ -1,4 +1,6 @@
-# CAV 2023:
+# CAV 2023
+
+# Online Causation Monitoring of Signal Temporal Logic
 
 ## System requirement
 
@@ -22,24 +24,12 @@
 ### Configuration of mode
 
 - the variable `d`:
-  - `d = 0`: Mode 1--monitor only
-  - `d = 1`: Mode 2--monitor with online diagnostics
-  - `d = 2`: Mode 3--monitor with reset
-
-- For AFC: Line 23
-- For AT: Line 9
+  - `d = 0`: monitor only (the classic monitor ClaM)
+  - `d = 1`: monitor with online diagnostics
+  - `d = 2`: monitor with reset (ResM)
+  - `d = 3`: Boolean causation monitor (BCauM)
+  - `d = 4`: quantitative causation monitor (QCauM)
 
 ### Input data
 
 Select one input signal by uncommenting out one line, and commenting out the other lines.
-
-- For AFC: Line 12-21
-- For AT: Line 14-23
-
-## Extended experimental results
-
-In `Online/experiment/`
-
-![experiment in paper](/Online/experiment/effect.png)
-
-![another example](/Online/experiment/case2.png)
