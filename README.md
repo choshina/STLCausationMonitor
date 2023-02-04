@@ -33,3 +33,11 @@
 ### Input data
 
 Select one input signal by uncommenting out one line, and commenting out the other lines.
+
+## Experimental Results
+
+### Automatic Transmission
+![experiment in paper](/Online/experiment/effect_AT.png)
+
+### Abstract Fuel Control
+![another example](/Online/experiment/effect_AFC.png)
