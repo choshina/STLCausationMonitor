@@ -37,7 +37,7 @@ Select one input signal by uncommenting out one line, and commenting out the oth
 ## Experimental Results
 
 ### Automatic Transmission
-![experiment in paper](/Online/experiment/effect_AT.png)
+![Online/experiment/effect\_AT](/Online/experiment/effect_AT.png)
 
 ### Abstract Fuel Control
-![another example](/Online/experiment/effect_AFC.png)
+![Online/experiment/effect\_AFC](/Online/experiment/effect_AFC.png)
